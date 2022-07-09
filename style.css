@@ -1,0 +1,101 @@
+*{
+    font-family: Helvetica, sans-serif;
+    box-sizing: border-box;
+    /* outline: 3px solid limegreen !important;
+    background: rgb(0 100 0 / 0.1) !important; */
+    margin: auto;
+    font-family: Poppins , sans-serif;
+}
+html,body{
+    height: 100%;
+}
+ul{
+    float: right;
+    margin: -3.5rem 3.5rem 0 0;
+}
+li{
+    display: inline-block;
+    margin: 0  0 0 2rem;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    background-color: darkgray !important;
+    padding: 0.8rem 2rem;
+    color: black;
+    border-radius: 5px;
+}
+.firstSection{
+    height: 50%;
+    background: url(images/pexels-pixabay-158251.jpg) no-repeat;
+    background-size:cover;
+    color: white;
+
+}
+.firstSection::after{
+    content: "";
+    background: rgba(1, 7, 0, 0.301);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 50%;
+    z-index: 0;
+}
+.logo{
+    font-weight: 500;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+}
+header,.secondSection{
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+.secondSection{
+    text-align: center;
+    padding: 8rem 0;
+    color: white;
+    z-index: 2;
+}
+.secondSection h1,h4{
+    margin: 1rem 0;
+}
+.secondSection h4{
+    font-weight: 400;
+}
+.secondSection h1{
+    font-size: 3.5rem;
+    font-weight: 300;
+}
+.learnMoreBtn{
+    padding: 0.8rem 2rem;
+    border-radius: 5px;
+    color: white;
+    background-color: darkgray;
+    border: none;
+}
+.learnMoreBtn:hover{
+    padding: 0.8rem 2rem;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(44, 44, 44);
+    border: none;
+}
+.lastSection{
+    text-align: center;
+    margin: 2rem 0 0 0;
+}
+.lastSection h1{
+    font-size: 2rem;
+}
+.lastSectionHeader{
+    margin: 0 0 2rem 0;
+}
